@@ -3,6 +3,7 @@ This repository is created for a backend I designed in Java (not HTML as the rep
 
 This app was a semester long effort with 2 individuals working on the frontend and myself and another working on the backend.
 I was unable to port this over from my school's gitlab so I have just brought over the backend files that I contributed to, and I included a html of the commits from the whole semester.
+To view all the java code go through /src/main/java/coms309. Each subfolder here has java code pertaining to the actual application. The tests are in /src/test.
 
 The backend of this app was developed with springboot and maven through the IntelliJ IDE. The pom.xml has all dependencies necessary to run the application through the main.java in the src folder.
 Upon execution a .idea folder will be created with a ton of files as well as a .gitignore file.
@@ -15,3 +16,5 @@ Administrators had all the same functionality as above, but could also remove an
 There were also many stocks added to the app that the users could purchase and sell to gain "money". Stocks were updated through 2 different apis. The first being AlphaVantage, which gave us access to update data like current price, change in the last 24 hours, news articles about the stocks, and the history of that stock. The other api utilized was called ClearBit. This allowed us to pull images from the web for each stock when they were added or deleted so we could display the logos of each stock to the user.
 
 We used several repositories to store all of our data. This was done through MySQLWorkbench where we connected to our classes server to host the database and were able to view it locally on our machines.
+
+There is also an htmlReport folder which has all of our testing data after running SystemTest.java showing that most of our code was read and working properly during these tests (We only had to hit a certain percentage for class and I had 3 other projects to do).
