@@ -1,5 +1,5 @@
 # BirdieBucksBackend
-This repository is created for a backend I designed in java for a stock trading android application.
+This repository is created for a backend I designed in Java (not HTML as the repository says) for a stock trading Android application.
 
 This app was a semester long effort with 2 individuals working on the frontend and myself and another working on the backend.
 I was unable to port this over from my school's gitlab so I have just brought over the backend files that I contributed to, and I included a html of the commits from the whole semester.
